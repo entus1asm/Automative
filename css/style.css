@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Chocolate1;
+    src: url(../fonts/Chocolate1.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat.otf);
+}
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+
+
+.cars__inner {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+}
+
+.logo {
+    font-family: Chocolate1;
+    font-size: 80px;
+margin: 0;
+color: white;
+font-weight: normal;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.nav li {
+    color: white;
+    font-family: Montserrat;
+    padding: 5px 15px;
+}
+
+.nav li:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+body {
+    margin: 0;
+}
+
+.cars {
+    background: url(../img/imgonline-com-ua-Blur-oUtZtMkBrdwp8vq.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cars__text {
+    padding-top: 100px;
+}
+
+.title__inner h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin: 0;
+}
+
+.text1 {
+    max-width: 350px;
+    color: white;
+    line-height: 20px;
+}
+
+.text1:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.title {
+    color: #130e27;
+}
+
+.title2 {
+    color: white;
+}
+
+.title__inner1{
+    padding-top: 120px;
+    display: flex;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title3 {
+    color: #c62314;
+}
+
+.title4 {
+    padding-left: 10px;
+    color: #130e27;
+}
+
+.cards {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.fa{
+    font-size: 150px;
+}
+
+.text__cards {
+    padding-top: 15px;
+    max-width: 150px;
+    line-height: 20px;
+    padding-bottom: 50px;
+    font-size: 19px;
+}
+
+.our__story {
+    background-color: #130e27;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text__story{
+    max-width: 460px;
+    color: white;
+}
+
+.text__button {
+    border: 1px solid #c62314;
+    color: white;
+    font-size: 30px;
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    font-family: montserrat;
+    border-radius: 5px;
+    background-color: #c62414;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text__button:hover {
+    background-color: red;
+}
+
+.pricing {
+    height: 600px;
+    background-color: #efefef;
+}
+
+.pricing__title {
+    text-align: center;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.cards1 {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.item1 {
+    background-color: #fff;
+    padding: 40px 60px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.item1__title {
+    font-weight: normal;
+}
+
+.item__price {
+    font-size: 60px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #c62314;
+}
+
+.info1__text1 {
+    line-height: 5px;
+}
+
+.item__button1 {
+    color: white;
+    background-color: #130e27;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+
+.item__button1:hover {
+    background-color: #c62314;
+    transition: 0.2s;
+    cursor: pointer;
+}
